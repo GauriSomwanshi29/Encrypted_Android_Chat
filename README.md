@@ -1,174 +1,205 @@
 # 🔐 Syntecxhub Encrypted Android Chat
 
 <p align="center">
-  <img width="120" src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png">
+  <img src="assets/screenshots/Screenshot_20260529_121006.png" width="260" alt="Encrypted Android Chat Preview">
 </p>
-
-<h1 align="center">🛡️ Secure Android Messaging System</h1>
 
 <p align="center">
-A futuristic Android chat application focused on secure communication using AES encryption technology.
-Built with Java, XML, and Android Studio.
+  <b>A secure Android chat prototype built using Java, XML, Android Studio, and AES encryption.</b>
+</p>
+
+<p align="center">
+  🔐 AES Encryption • 📱 Android Studio • ☕ Java • 🛡️ Cybersecurity Project • 💬 Secure Messaging
 </p>
 
 ---
 
-# 🚀 Project Overview
+## 📌 Project Overview
 
-Syntecxhub Encrypted Android Chat is a cybersecurity-inspired Android application designed to demonstrate secure messaging concepts through AES encryption.
+**Syntecxhub Encrypted Android Chat** is a cybersecurity-based Android application that demonstrates how messages can be encrypted and decrypted locally using AES encryption.
 
-This project allows users to:
+The app allows users to enter a message, encrypt it, decrypt it back, and view the message history inside a clean Android interface.
 
-* Encrypt messages securely 🔒
-* Display encrypted output ⚡
-* Decrypt messages instantly 🔓
-* Maintain message history 📜
-* Experience a cyberpunk-themed interface 💻
+This project was created as part of the **Syntecxhub Cyber Security Internship Task**.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## 🔐 AES Encryption Engine
-
-Messages are encrypted using Advanced Encryption Standard (AES) algorithms for secure communication.
-
-## 📩 Real-Time Message Encryption
-
-Input messages instantly convert into encrypted text.
-
-## 🔓 Instant Decryption
-
-Encrypted messages can be decrypted back into readable format.
-
-## 📜 Chat History
-
-Stores previously encrypted messages during runtime.
-
-## 🎨 Cyber UI Design
-
-Dark futuristic interface inspired by hacker terminals and cybersecurity dashboards.
-
-## ⚡ Lightweight Performance
-
-Optimized Android application with fast execution speed.
+* 🔐 AES-based message encryption
+* 🔓 Local message decryption
+* 💬 Simple chat-style message input
+* 📜 Message history display
+* 🎨 Dark cyber-themed Android UI
+* ⚠️ Basic error handling
+* 📱 Runs on Android Emulator
+* ☕ Built using Java and XML
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-| Technology     | Purpose                 |
-| -------------- | ----------------------- |
-| Java           | Backend Logic           |
-| XML            | Android UI Design       |
-| Android Studio | Development Environment |
-| AES Algorithm  | Encryption & Security   |
-| Gradle         | Build Management        |
+| Technology     | Purpose                           |
+| -------------- | --------------------------------- |
+| Java           | App logic and encryption handling |
+| XML            | Android UI design                 |
+| Android Studio | Development environment           |
+| AES Algorithm  | Message encryption and decryption |
+| Gradle         | Android project build system      |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```bash
 Syntecxhub_Encrypted_Android_Chat/
 │
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   └── AESHelper.java
-│   │   │   ├── res/
-│   │   │   │   └── layout/
-│   │   │   │       └── activity_main.xml
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/syntecxhub_encrypted_android_chat/
+│           │       ├── MainActivity.java
+│           │       └── AESHelper.java
+│           │
+│           └── res/
+│               └── layout/
+│                   └── activity_main.xml
+│
+├── assets/
+│   └── screenshots/
+│       └── Screenshot_20260529_121006.png
 │
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── gradle.properties
-
+└── README.md
 ```
 
 ---
 
-# 📱 Application Preview
+## 🔐 How Encryption Works
 
-### 🔹 Secure Encryption Interface
-
-* Enter custom message
-* Encrypt securely
-* View encrypted output
-* Decrypt instantly
+1. User enters a message.
+2. The app encrypts the message using AES.
+3. The encrypted message is displayed on the screen.
+4. The encrypted text is decrypted locally.
+5. The original message is shown again as decrypted output.
+6. The message is added to message history.
 
 ---
 
-# ⚙️ Installation Guide
+## 📱 App Preview
 
-## Step 1
+<p align="center">
+  <img src="assets/screenshots/Screenshot_20260529_121006.png" width="260" alt="App Screenshot">
+</p>
 
-Clone the repository
+---
+
+## 🚀 How to Run
+
+### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Syntecxhub_Encrypted_Android_Chat.git
+git clone https://github.com/GauriSomwanshi29/Syntecxhub_Encrypted_Android_Chat.git
 ```
 
-## Step 2
+### Step 2: Open in Android Studio
 
-Open project in Android Studio
+Open Android Studio and select:
 
-## Step 3
+```bash
+Open Project
+```
 
-Sync Gradle files
+Then choose the project folder.
 
-## Step 4
+### Step 3: Sync Gradle
 
-Run Emulator or Connect Android Device
+Wait until Gradle sync completes.
 
-## Step 5
+### Step 4: Run Emulator
 
-Press ▶ Run
+Create or select an Android Virtual Device.
 
----
+Example:
 
-# 🧠 Learning Outcomes
+```bash
+Pixel 4 API 34
+```
 
-This project helped in understanding:
+### Step 5: Run the App
 
-* Android application structure
-* Secure coding practices
-* AES encryption implementation
-* XML UI designing
-* Android Emulator setup
-* Java event handling
+Click the green run button:
 
----
-
-# 🔮 Future Improvements
-
-* Firebase Integration
-* Real-time chatting
-* User Authentication
-* Cloud Message Storage
-* End-to-End Encryption
-* Biometric Authentication
+```bash
+▶ Run
+```
 
 ---
 
-# 👩‍💻 Developer
+## 🧪 Testing
 
-## Gauri Somwanshi
+Example input:
 
-Cybersecurity Student • Android Developer • Future Security Analyst
+```bash
+Hello Gauri
+```
+
+Expected output:
+
+```bash
+Encrypted Message: Random encrypted text
+Decrypted Message: Hello Gauri
+Message History: You: Hello Gauri
+```
 
 ---
 
-# 🌟 Project Status
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+* How Android projects are structured
+* How Java is used in Android development
+* How XML is used for UI design
+* How AES encryption works
+* How to run apps using Android Emulator
+* How to upload Android projects on GitHub
+* How cybersecurity concepts are applied in mobile apps
+
+---
+
+## 🔮 Future Improvements
+
+* 🔑 Use Android Keystore for secure key storage
+* 🌐 Add real-time chat using Firebase
+* 👤 Add user login and authentication
+* 🧾 Store encrypted message history
+* 🛡️ Add stronger key management
+* 📲 Improve UI with RecyclerView
+* 🔔 Add notification support
+
+---
+
+## 👩‍💻 Developed By
+
+**Gauri Somwanshi**
+Cyber Security Intern
+Syntecxhub Internship Program
+
+---
+
+## 📌 Project Status
 
 ✅ Completed
-🚀 Ready for GitHub Showcase
-🛡️ Cybersecurity Portfolio Project
+🚀 Uploaded on GitHub
+🛡️ Cybersecurity Internship Project
+📱 Android Emulator Tested
 
 ---
 
 <p align="center">
-Made with ❤️ using Java & Android Studio
+  Made By GAURI ❤️ using Java and Android Studio
 </p>
