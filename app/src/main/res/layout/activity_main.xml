@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B0F1A"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔐 Encrypted Android Chat"
+        android:textColor="#00FF88"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:padding="12dp"
+        android:backgroundTint="#00FF88"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypt &amp; Send"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/encryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypted Message:"
+        android:textColor="#00D9FF"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/decryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypted Message:"
+        android:textColor="#00FF88"
+        android:textSize="16sp"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message History:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
