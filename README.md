@@ -185,9 +185,7 @@ Through this project, I learned:
 
 ## 👩‍💻 Developed By
 
-**Gauri Somwanshi**
-Cyber Security Intern
-Syntecxhub Internship Program
+**Gauri Somwanshi❤️**
 
 ---
 
@@ -203,3 +201,9 @@ Syntecxhub Internship Program
 <p align="center">
   Made By GAURI ❤️ using Java and Android Studio
 </p>
+
+---
+
+## ⭐ Support 
+
+If you like this project, give it a on GitHub.!
