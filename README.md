@@ -1,4 +1,4 @@
-# 🔐 Syntecxhub Encrypted Android Chat
+# 🔐 Encrypted Android Chat
 
 <p align="center">
   <img src="assets/screenshots/Screenshot_20260529_121006.png" width="260" alt="Encrypted Android Chat Preview">
@@ -186,15 +186,6 @@ Through this project, I learned:
 ## 👩‍💻 Developed By
 
 **Gauri Somwanshi❤️**
-
----
-
-## 📌 Project Status
-
-✅ Completed
-🚀 Uploaded on GitHub
-🛡️ Cybersecurity Internship Project
-📱 Android Emulator Tested
 
 ---
 
